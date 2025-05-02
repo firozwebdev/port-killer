@@ -1,0 +1,14 @@
+{
+  "name": "port",
+  "version": "1.0.0",
+  "main": "freeport.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "sudo-prompt": "^9.2.1"
+  }
+}
