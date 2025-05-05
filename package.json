@@ -1,14 +1,20 @@
 {
-  "name": "port",
+  "name": "port-killer",
   "version": "1.0.0",
-  "main": "freeport.js",
+  "bin": "port-killer.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node port-killer.js",
+    "build": "pkg . --output dist/pk.exe"
   },
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "author": "Firoz Rahman Sabuz",
+  "license": "MIT",
   "dependencies": {
     "sudo-prompt": "^9.2.1"
+  },
+  "pkg": {
+    "targets": [
+      "node18-win-x64"
+    ],
+    "outputPath": "dist"
   }
 }

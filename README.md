@@ -24,3 +24,8 @@ git clone https://github.com/your-username/port-killer.git
 cd port-killer
 npm install
 node freeport.js <portnumber>
+
+pkg .
+dist/port-killer.exe <portnumber>
+
+
